@@ -1,5 +1,8 @@
 ![image](https://github.com/user-attachments/assets/4106e3e8-7cd9-4350-b683-1ef0ebdbddb0)
-Malicious URL Detection Web App
+
+
+
+**Malicious URL Detection Web App**
 Overview
 This web application detects malicious URLs and classifies them as either 'malicious' or 'safe' using a machine learning model. Built with Flask and a custom-trained ML model, this tool helps identify potentially harmful URLs, improving web security by preventing phishing attacks and other malicious activities.
 
