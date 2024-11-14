@@ -2,7 +2,9 @@
 
 
 
-**Malicious URL Detection Web App**
+##Malicious URL Detection Web App##
+
+
 Overview
 This web application detects malicious URLs and classifies them as either 'malicious' or 'safe' using a machine learning model. Built with Flask and a custom-trained ML model, this tool helps identify potentially harmful URLs, improving web security by preventing phishing attacks and other malicious activities.
 
@@ -15,26 +17,6 @@ Flask: Python web framework to handle the app’s frontend and backend.
 Machine Learning: The app uses a classification model built with Python's machine learning libraries such as Scikit-learn, TensorFlow, or others.
 HTML/CSS: For building the web interface.
 Python: The core language for building both the machine learning model and the web app.
-How to Use
-Clone this repository to your local machine:
-
-bash
-Copy code
-git clone https://github.com/yourusername/malicious-url-detection.git
-Install the required dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Start the Flask server:
-
-bash
-Copy code
-python app.py
-Open your browser and go to http://127.0.0.1:5000/ to access the app.
-
-Enter a URL in the input box and click the "Check URL" button to get a result indicating if the URL is Malicious or Safe.
-
 How it Works
 The app receives the URL input from the user.
 The URL is then passed through a machine learning model that uses a pre-trained dataset to detect malicious characteristics.
