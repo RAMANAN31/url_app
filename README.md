@@ -25,6 +25,28 @@ Python: The core language for building both the machine learning model and the w
 
 **How it Works**
 
+URL Safety Prediction Process
+URL Safety Prediction Process
+User Input
+Preprocess Input
+Preprocess Input
+Pass Data to Model
+Pass Data to Model
+User provides URL of the website
+Predict Safety
+Predict Safety
+Backend preprocesses input using feature extraction
+Backend preprocesses input using feature extraction
+Display Output
+Display Output
+Transformed data is passed to machine learning model
+Transformed data is passed to machine learning model
+XGBoost Classifier predicts safety of the URL
+XGBoost Classifier predicts safety of the URL
+Prediction is displayed as "Malicious" or "Safe
+Prediction is displayed as "Malicious" or "Safe![image](https://github.com/user-attachments/assets/1212ea57-6f5e-4190-b522-e25f0fe4034f)
+
+
 The app receives the URL input from the user.
 
 The URL is then passed through a machine learning model that uses a pre-trained dataset to detect malicious characteristics.
